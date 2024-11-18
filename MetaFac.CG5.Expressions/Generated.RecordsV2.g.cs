@@ -25,7 +25,7 @@ namespace MetaFac.CG5.Expressions
 {
 
 
-    public abstract record EntityBase : IFreezable, IEntityBase
+    public abstract partial record EntityBase : IFreezable, IEntityBase
     {
         public EntityBase() { }
         public EntityBase(EntityBase? source) { }
