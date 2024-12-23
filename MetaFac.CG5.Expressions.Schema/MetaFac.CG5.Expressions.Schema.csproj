@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="FluentModels" Version="1.2.6" />
+      <PackageReference Include="MetaFac.CG4.Schemas" Version="3.2.1" />
     </ItemGroup>
 
 </Project>
