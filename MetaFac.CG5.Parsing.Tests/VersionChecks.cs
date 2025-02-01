@@ -1,4 +1,4 @@
-﻿using FluentAssertions;
+﻿using Shouldly;
 using Xunit;
 
 namespace MetaFac.CG5.Parsing.Tests
@@ -8,7 +8,7 @@ namespace MetaFac.CG5.Parsing.Tests
         [Fact]
         public void VersionCheck()
         {
-            typeof(Combinators).Assembly.FullName.Should().StartWith("MetaFac.CG5.Parsing, Version=1.0.");
+            typeof(Combinators).Assembly.FullName.ShouldStartWith("MetaFac.CG5.Parsing, Version=1.0.");
         }
     }
 }
