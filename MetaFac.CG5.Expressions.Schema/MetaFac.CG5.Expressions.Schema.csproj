@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MetaFac.CG4.Schemas" Version="3.2.4" />
+      <PackageReference Include="MetaFac.CG4.Schemas" Version="3.2.6" />
     </ItemGroup>
 
 </Project>
